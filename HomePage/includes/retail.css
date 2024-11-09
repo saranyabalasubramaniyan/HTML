@@ -1,0 +1,51 @@
+* { box-sizing: border-box; } 
+body { background-color: #02022E;
+	   font-family: Verdana, Arial, sans-serif; }
+#wrapper { margin: 0 auto; 
+           width: 80%; 
+		   min-width: 940px;
+		   background-color: #0EB5D6; 
+		  color: #000066; }
+header { background-color: #02022E;
+        color: #FAFAFC;
+        font-size: 150%; 
+		padding: 5px 10px 10px 300px;
+        height: 175px;
+        background-repeat: no-repeat;
+        background-image: url(../images/infinity2.jpg); }
+nav { float: right; 
+     width: 150px; 
+	 font-weight: bold;
+     letter-spacing: 0.1em; }
+main { background-color: #FFFFFF; 
+          color: #000000;
+		  padding: 10px 20px;
+		  height: auto; 
+		 display: block;
+		overflow: auto; }
+h2 { color: #A80BF1;
+    font-family: Arial, sans-serif; }
+h3 { color: #9430cf;
+    font-family: Arial, sans-serif; }
+#floatright { float: right; margin: 10px; }
+
+nav ul { list-style-type: none; margin: 0; padding: 0; }
+nav a { text-decoration: none; padding: 20px; display: block;
+       background-color: #0EB5D6;
+       border-bottom: 1px solid #FFFFFF; 
+}
+nav a:link { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover { color: #869DC7;
+             background-color: #EAEAEA; } 
+table td {
+        width: 500px;
+        word-wrap: break-word;
+      }
+footer { font-size: 70%; 
+       text-align: center;
+	   padding: 10px;
+	   background-color: #0EB5D6; 
+	   clear: both;
+}
+
